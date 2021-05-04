@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://www.indiewire.com/wp-content/uploads/2020/07/Mucho_Mucho_Amor__The_Legend_of_Walter_Mercado_00_29_38_05_RC.jpg?resize=800,534');
+    background-color: #000000;
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+   color: #250B65;
+    font-size:40px;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+   color: #250B65;
+    font-size: 30px;
+  -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 150px;
+   }
+
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }

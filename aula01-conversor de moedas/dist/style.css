@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://www.infomoney.com.br/wp-content/uploads/2019/06/dolar-e-real.jpg?fit=900%2C675&quality=100&strip=all');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #250B65;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #250B65;
+  -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
